@@ -39,7 +39,7 @@ namespace Checks_Even_or_Odd_Number
 							Thread.Sleep(1500);
 							Console.Clear();
 						}
-						else//all odd and with decimal point goesn here[1.4, 3, 4.5, etc.]
+						else//all odd and with decimal point goes here[1.4, 3, 4.5, etc.]
 						{
 							Console.ForegroundColor = ConsoleColor.Yellow;
 							Console.WriteLine(string.Format("{0}, was an odd NUMBER", userinput));
